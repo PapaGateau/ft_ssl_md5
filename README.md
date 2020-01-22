@@ -35,8 +35,6 @@ Step 2 - Based on the number of chunks and predetermined seeds (see ```md5.h``` 
 
 Step 3 - Once the final round of processing has occured, all that is left is to print the hash. We can do so by concatenating each buffer and printing the hexadecimal representation (```md5``` uses **little-endian buffers** so the bits must be inverted).
 
-### Features
-
 ## Useful links
 [MD5 pseudocode](https://en.wikipedia.org/wiki/MD5#Pseudocode)  
 [SHA256 pseudocode](https://en.wikipedia.org/wiki/SHA-2#Pseudocode)  
